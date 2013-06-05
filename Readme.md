@@ -1,7 +1,7 @@
 # Nolang
 
 What is Nolang? Well, it's a portmanteau of 'node' and 'erlang'. It's also _an actor style concurrency framework for
-Node.js that implements a large percentage of Erlang's OTP framework._.
+Node.js that implements a large percentage of Erlang's OTP framework_.
 
 ## ...What?
 
