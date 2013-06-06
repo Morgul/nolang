@@ -1,0 +1,27 @@
+{
+  "name": "nolang",
+  "version": "0.1.0",
+  "description": "An actor style concurrency framework for Node.js that implements a large percentage of Erlang's OTP framework.",
+  "main": "nolang.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Morgul/nolang.git"
+  },
+  "keywords": [
+    "node",
+    "erlang",
+    "opt",
+    "actor",
+    "pid",
+    "supervisor"
+  ],
+  "author": "Christopher S. Case <chris.case@g33xnexus.com>",
+  "license": "MIT",
+  "dependencies": {
+    "threads_a_gogo": "~0.1.5",
+    "JASON": "~0.1.3"
+  }
+}
