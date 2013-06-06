@@ -19,8 +19,12 @@ app.start(function()
 
     app.spawn(function()
     {
-        console.log('Our Thread ID is:', thread.id);
-        console.error('And, we blow up now, plzkthx!');
+        receive('test', function(data)
+        {
+            console.log('got data:', data);
+        });
+
+        send('test', self, 'Foobar!');
     });
 });
 
