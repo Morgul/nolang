@@ -1,3 +1,12 @@
+-----
+
+Unfortunately, the current state of things is such that the library I'm using has some fundamental issues that make it
+ill-suited for this use-case. This project could totally be a reality, but it will involve modifying the threading
+library, and doing some work in C. While I can do that, I'm not currently working on that at the moment. I'll update
+this notice if I pick this up again.
+
+-----
+
 # Nolang
 
 What is Nolang? Well, it's a portmanteau of 'node' and 'erlang'. It's also _an actor style concurrency framework for
